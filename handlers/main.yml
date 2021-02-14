@@ -1,0 +1,4 @@
+---
+# handlers file for /etc/ansible/roles/logà
+- name: restart loga-ansiblerole 
+  service: name=httpd state=restarted
